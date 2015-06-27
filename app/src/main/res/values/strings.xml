@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NyuAndroidAppClass</string>
+
+    <string name="main_text">
+        NYU SCPS \n
+        Creating \n
+        Android Apps Intensive \n \n
+
+        Mark Meretzky,  \n
+        Instructor \n
+
+            ____________________ \n
+
+        CLASS PROJECT \n
+        EXAMPLES
+
+
+</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_june_twenty">Go Back - JuneTwentyActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    tools:context=".MainActivity"> <!-- BEGIN PARENT LENEAR LAYOUT -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/borders1"
+
+
+        android:orientation="vertical"
+
+        ><!-- BEGIN MAIN LEFT LENEAR LAYOUT -->
+
+        <RelativeLayout
+            android:layout_width="55dp"
+            android:layout_height="wrap_content">   <!-- BEGIN TOP-LEFT RELATIVE LAYOUT -->
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#ff880000"
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:text="J X N"
+
+                android:textColor="#ffffffff"
+
+                />
+
+
+        </RelativeLayout>
+        <!-- END TOP=LEFT RELATIVE LAYOUT  -->
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            > <!-- BEGIN LEFT-BOTTOM LINEAR LAYOUT -->
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="25dp"
+                android:background="#ffFFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="MAY 31"
+
+                android:textColor="#FF000000"
+
+                />
+            <!-- FIRST TEXTVIEW IN LEFT-BOTTOM LINEAR LAYOUT -->
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffffff"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="JUN 06"
+
+                android:textColor="#ff000000"
+
+                />
+            <!-- SECOND TEXTVIEW IN LEFT-BOTTOM LINEAR LAYOUT-->
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffffff"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="JUN 13"
+                android:textColor="#ff000000"
+
+                />
+            <!-- THIRD TEXTVIEW IN LEFT-BOTTOM LINEAR LAYOUT-->
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffffff"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="JUN 20"
+
+                android:textColor="#ff000000"
+
+                android:onClick="juneTwenty"
+
+                />
+            <!-- FOURTH TEXTVIEW IN LEFT-BOTTOM LINEAR LAYOUT-->
+
+
+        </LinearLayout>
+        <!--  CLOSE LEFT-BOTTOM LINEAR LAYOUT-->
+
+    </LinearLayout>
+    <!--  CLOSE MAIN LEFT LINEAR LAYOUT-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+        android:background="#ffdddddd"
+
+        ><!-- BEGIN MAIN RIGHT LENEAR LAYOUT -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#ff000000"
+            ><!-- BEGIN TOP RELATIVE LAYOUT IN RIGHT SIDE -->
+<!-- COMMENTED OUT ONLY IN THE HOME SCREEN ACTIVITY_MAIN.XML
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+
+                android:text="Exercise" />
+
+ END OV HOME SCREEN COMMENT FOR ACTIVITY MAIN -->
+
+
+        </RelativeLayout> <!-- END TOP RELATIVE LAYOUT IN RIGHT SIDE -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+
+
+            android:background="#ff000000"
+            ><!-- BEGIN TOP LINEAR LAYOUT IN RIGHT SIDE -->
+
+<!-- COMMENT OUT ONLY FOR THE HOME SCREEN
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff000000"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#ffffffff"
+
+
+                android:text="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#ffffffff"
+
+                android:text="2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#ffffffff"
+
+                android:text="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#ffffffff"
+
+                android:text="4"
+                />
+  END COMMENT OF TEXT VIEWS FOR HOME SCREEN-->
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            ><!-- BEGIN RELATIVE LAYOUT FOR CONTENT INFORMATION -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:paddingTop="30sp"
+
+    android:textSize="24sp"
+
+    android:gravity="center"
+
+    android:text="@string/main_text"
+
+
+
+
+    /><!-- CONTENT VIEW TEXT BOX -->
+
+        </RelativeLayout><!-- END RELATIVE LAYOUT FOR CONTENT INFORMATION -->
+
+
+
+    </LinearLayout>
+    <!--  CLOSE MAIN RIGHT LINEAR LAYOUT-->
+
+</LinearLayout> <!--  CLOSE PARENT LINEAR LAYOUT-->
